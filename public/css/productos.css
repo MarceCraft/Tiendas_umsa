@@ -1,0 +1,112 @@
+body {
+  height: 100vh;
+}
+
+header {
+  height: 10%;
+  background-color: #478;
+  display: flex;
+  align-items: center;
+}
+header .regresar {
+  font-size: 1.2em;
+  display: inline-block;
+}
+header .title {
+  display: inline-block;
+  margin-left: 38%;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+main {
+  height: 80%;
+}
+main .vendidos {
+  border: 3px dashed #58a;
+  height: 10%;
+  text-align: center;
+  padding: 20px 0;
+  color: #478;
+  background-color: rgba(68, 187, 170, 0.6);
+}
+main .product-container {
+  height: 90%;
+  width: 95%;
+  margin: 0 auto;
+  padding: 4px;
+}
+main .product-container .product-items {
+  margin: 15px 4%;
+  border-radius: 20px;
+  height: 45%;
+  width: 17%;
+  min-width: 140px;
+  float: left;
+  background-color: rgb(71, 142, 205);
+}
+main .product-container .product-items .img-product {
+  height: 50%;
+}
+main .product-container .product-items .img-product img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+main .product-container .product-items .descripcion-product {
+  height: 50%;
+  text-align: center;
+  overflow: auto;
+}
+
+footer {
+  height: 10%;
+  background-color: rgb(6, 54, 106);
+}
+footer .description {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  float: left;
+  width: 30%;
+  color: #fff;
+  text-align: center;
+}
+footer .siguenos {
+  width: 70%;
+  float: right;
+}
+footer .siguenos h2 {
+  height: 10%;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 2px;
+}
+footer .siguenos .redes-container {
+  height: 90%;
+}
+footer .siguenos .redes-container .redes-items {
+  height: 100%;
+  width: 20%;
+  float: left;
+  margin: 0 6%;
+}
+footer .siguenos .redes-container .redes-items a {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+footer .siguenos .redes-container .redes-items a i {
+  font-size: 40px;
+}
+footer .siguenos .redes-container .redes-items a .yt {
+  color: #FF0000;
+}
+footer .siguenos .redes-container .redes-items a .tw {
+  color: #1DA1F2;
+}
+footer .siguenos .redes-container .redes-items a .fb {
+  color: #4267B2;
+}
+
+/*# sourceMappingURL=productos.css.map */

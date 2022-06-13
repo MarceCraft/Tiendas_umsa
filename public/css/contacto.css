@@ -1,0 +1,129 @@
+*
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+body
+{
+    background: #000;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #1c7;
+}
+
+.flex-container
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #444444ee;
+    padding: 20px;
+    margin: 70px 10px;
+    border: 8px solid #000;
+    outline: 4px solid #1c7;
+}
+.form
+{
+    /*flex : flex-grow, flex-shirk, flex-basis*/
+    min-width: 300px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    order: 5;
+}
+
+.form__input
+{
+    width: 100%;
+    padding: 7px;
+    /*0 a los laterales*/
+    margin: 6px 0;
+    border: none;
+    border-bottom: 3px solid #4a8;
+    /*Que sea transparente el fondo*/
+    background: transparent;
+    color: #fff;
+}
+
+.form__input:focus
+{
+    /*Sera abajo, comienza siendo transparente y termina con el color que le digas
+    en el propio boton no toma en cuenta  anterior elemento*/
+    background: linear-gradient(to bottom, transparent, #222);
+    outline: none;
+    border-bottom: 3px solid #5dd;
+}
+
+.form textarea
+{
+    min-height: 140px;
+    /*modifica la capacidad del tamaño del elemento
+    both : los 2 siguientes
+    horizontal
+    vertical*/
+    resize: none;
+}
+
+.form-img
+{
+    flex: 1;
+    /*Para afectar a los hijos no a nietos colocar display*/
+    display: flex;
+    padding: 10px;
+    min-width: 400px;
+    max-width: 400px;
+    order: 2;
+}
+
+.form-img div
+{
+    padding: 40px;
+}
+
+.form-img img
+{
+    width: 60%;
+    margin: auto;
+}
+
+.img-container
+{
+    padding: 50px;
+    margin: auto;
+}
+
+.img-container div
+{
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 40px;
+}
+
+.form input[type="submit"]
+{
+    background: #001;
+    border-bottom: none;
+    padding: 12px;
+}
+
+.form input[type="submit"]:hover
+{
+    background: #59f;
+    border-bottom: none;
+    padding: 12px;
+}
+
+.form input[type="submit"]:focus
+{
+    background: #17a;
+}
+
+
+
+
